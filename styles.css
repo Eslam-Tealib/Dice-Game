@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: #363840;
+  font-family: 'Lobster', cursive;
+}
+
+h1 {
+  font-size: 8rem;
+  color: #45c496;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+p {
+  font-size: 2rem;
+  color: #45c496;
+}
+
+.col-lg-6 img {
+  width: 25%;
+}
+
+@media (min-width: 900px) {
+  .first-player{
+    display: inline-block;
+  }
+
+  .second-player{
+    display: inline-block;
+    position: relative;
+    margin-left: -20%;
+  }
+}
+
+footer {
+  color: #DBEDF3;
+  padding: 80px;
+}
